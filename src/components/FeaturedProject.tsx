@@ -70,7 +70,7 @@ export default function FeaturedProject() {
 
             <div className="flex flex-wrap gap-3">
               <a
-                href="https://wallet-app.vercel.app"
+                href="https://walletapp-eta-tan-91.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 bg-sky-400 text-slate-900 text-sm font-semibold rounded-lg hover:bg-sky-300 transition-colors"
@@ -93,6 +93,13 @@ export default function FeaturedProject() {
               >
                 GitHub
               </a>
+            </div>
+            <div className="mt-4 inline-flex items-center gap-3 px-4 py-2.5 rounded-lg bg-slate-900/60 border border-slate-700/60">
+              <span className="text-slate-500 text-xs font-medium uppercase tracking-wider">Test Account</span>
+              <span className="w-px h-3 bg-slate-700"></span>
+              <span className="text-slate-400 text-xs font-mono">demo@example.com</span>
+              <span className="text-slate-600 text-xs">·</span>
+              <span className="text-slate-400 text-xs font-mono">Aa123456</span>
             </div>
           </div>
 
