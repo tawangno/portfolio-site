@@ -1,23 +1,28 @@
-// TODO: Replace with your actual work experience
-const experiences = [
+const timeline = [
   {
-    role: 'Backend Developer',
-    company: 'Your Company Name',
-    period: 'Jan 2024 – Present',
+    role: 'Programmer — Freelance',
+    company: 'Independent / Client Projects',
+    period: '2025 – Present',
     achievements: [
-      'Reduced API response time by X% by implementing Redis caching layer',
-      'Built payment integration handling X transactions per day with 99.9% uptime',
-      'Led migration of legacy system to ASP.NET Core, improving deploy frequency by 3×',
+      'Developed and enhanced backend APIs for payment-related systems using C#.NET / ASP.NET Core',
+      'Integrated payment gateways and third-party services based on client requirements',
+      'Designed and managed databases using PostgreSQL and MySQL',
+      'Implemented unit tests with xUnit to ensure API correctness and business logic validation',
+      'Managed source code with GitHub and supported deployments through CI/CD pipelines',
+      'Focused on security, accuracy, and stability for financial transaction systems',
     ],
   },
   {
-    role: 'Software Developer',
-    company: 'Previous Company',
-    period: 'Jun 2022 – Dec 2023',
+    role: 'Programmer',
+    company: 'Appswin · Khon Kaen',
+    period: '2022 – 2024',
     achievements: [
-      'Designed and built RESTful APIs serving X,000+ daily active users',
-      'Implemented automated CI/CD pipeline, reducing deployment time from 2 hours to 15 minutes',
-      'Collaborated with frontend team to deliver full-stack features end-to-end',
+      'Developed and maintained backend APIs for payment systems using C#.NET / ASP.NET Core',
+      'Integrated payment services with external payment providers',
+      'Designed and managed databases using PostgreSQL and MySQL',
+      'Implemented unit tests using xUnit to validate business logic and API reliability',
+      'Worked with Azure DevOps CI/CD pipelines for deployment and automation',
+      'Improved API performance, stability, and security',
     ],
   },
 ]
@@ -33,7 +38,7 @@ export default function Experience() {
           <div className="absolute left-0 top-0 bottom-0 w-px bg-slate-700" />
 
           <div className="space-y-10">
-            {experiences.map((exp, i) => (
+            {timeline.map((exp, i) => (
               <div key={i} className="pl-8 relative">
                 <div className="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-sky-400 -translate-x-[3.5px]" />
                 <p className="text-slate-500 text-xs mb-1">{exp.period}</p>

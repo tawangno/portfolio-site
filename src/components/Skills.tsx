@@ -5,23 +5,23 @@ const groups = [
   },
   {
     title: 'Database',
-    skills: ['PostgreSQL', 'Redis', 'EF Migrations', 'Optimistic Locking', 'Transactions'],
+    skills: ['PostgreSQL', 'MySQL', 'Redis', 'Elasticsearch', 'EF Migrations', 'Optimistic Locking'],
   },
   {
     title: 'Frontend',
-    skills: ['React', 'TypeScript', 'Tailwind CSS', 'TanStack Query', 'Axios'],
+    skills: ['React', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Blazor'],
   },
   {
     title: 'Infrastructure',
-    skills: ['Docker', 'GitHub Actions', 'Render', 'Vercel', 'CI/CD Pipelines'],
+    skills: ['Docker', 'Azure', 'Azure DevOps', 'GitHub Actions', 'CI/CD Pipelines', 'Azure Storage'],
   },
   {
     title: 'Testing',
-    skills: ['xUnit', 'Testcontainers', 'Integration Testing', 'Concurrency Tests'],
+    skills: ['xUnit', 'Testcontainers', 'Integration Testing', 'Postman', 'Concurrency Tests'],
   },
   {
     title: 'Concepts',
-    skills: ['Idempotency Keys', 'Double-entry Ledger', 'JWT Auth', 'Concurrency Control', 'Redis Blacklist'],
+    skills: ['Idempotency Keys', 'Double-entry Ledger', 'JWT Auth', 'Payment Integration', 'API Security'],
   },
 ]
 

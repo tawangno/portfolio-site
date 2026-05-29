@@ -23,8 +23,9 @@ export default function Contact() {
         <p className="text-sky-400 text-sm font-semibold tracking-widest uppercase mb-3">Contact</p>
         <h2 className="text-3xl font-bold text-slate-100 mb-4">Get In Touch</h2>
         <p className="text-slate-400 mb-10 leading-relaxed">
-          Open to Backend and Full-stack Developer roles. Feel free to reach out —
-          I'm always happy to chat about engineering challenges.
+          Open to backend and full-stack developer roles — especially remote and international
+          opportunities. If you're looking for someone who takes production reliability seriously,
+          I'd love to connect.
         </p>
         <div className="flex items-center justify-center gap-4 flex-wrap">
           {contacts.map(c => (
